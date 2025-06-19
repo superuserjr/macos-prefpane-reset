@@ -25,7 +25,8 @@ This repo ships a tiny shell script (one carefully chained command) that:
 ```bash
 # curl & run
 curl -sL https://raw.githubusercontent.com/superuserjr/macos-prefpane-reset/main/reset.sh | bash
-
+```
+```bash
 # …or copy/paste the one-liner directly:
 killall -KILL "System Settings" 2>/dev/null && \
 mv ~/Library/Preferences/com.apple.systempreferences.plist ~/Desktop/ && \
